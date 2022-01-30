@@ -4,26 +4,26 @@ _specver: 2
 # modpack related settings, changes the supposed to change the visual appearance of the launcher
 modpack:
   # Name of the mod pack, that is displayed in various places where it fits
-  name: Example Modpack
+  name: AwesomeCopper-Pack
 
   # Description
-  description: This is a awesome modpack about making examples.
+  description: Our Private Modpack for a couple of friends
 
 
 # settings regarding the installation of the modpack
 install:
   # version of minecraft, needs the exact version
-  mcVersion: 1.16.4
+  mcVersion: 1.16.5
 
   # exact version of forge or fabric that is supposed to be used
   # if this value is a null value so ( ~, null, or "" ) then the version from the mod pack is going to be used
-  loaderVersion: 0.6.1.51
+  loaderVersion: 36.2.23
 
   # If a custom installer is supposed to used, specify the url here: (Otherwise put "", ~ or null here)
   # supports variables: {{@loaderversion@}} and {{@mcversion@}}
   # For forge: "http://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
   # For Fabric: "https://maven.fabricmc.net/net/fabricmc/fabric-installer/{{@loaderversion@}}/fabric-installer-{{@loaderversion@}}.jar"
-  installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/{{@loaderversion@}}/fabric-installer-{{@loaderversion@}}.jar
+  installerUrl: http://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar
 
   # Installer Arguments
   # These Arguments have to be passed to the installer
@@ -42,52 +42,23 @@ install:
   # installerArguments:
   #   - "--installServer"
   installerArguments:
-    - "server"
-    - "-downloadMinecraft"
-    - "-snapshot"
-    - "-mcversion"
-    - "1.16.4"
-    - "-loader"
-    - "0.10.6+build.214"
+    - "--installServer"
 
   # Link to where the file where the modpack can be distributed
   # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-  modpackUrl: https://media.forgecdn.net/files/3116/682/All+of+Fabric+3-2.4.4.zip
+  modpackUrl: https://raw.githubusercontent.com/Coppernicus54/AwesomeCopper-Pack/master/AwesomeCopper-Pack.zip
 
   # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
   # current supported formats:
   # - curseforge or curse
   # - curseid
   # - zip or zipfile
-  modpackFormat: curse
+  modpackFormat: zip
 
   # Settings which are specific to the format used, might not be needed in some casese
   formatSpecific:
     # optional paramenter used for curse to specify a whole project to ignore (mostly if it is client side only)
     ignoreProject:
-      - 297038 #CraftPresence
-      - 308702 #Mod Menu
-      - 313219 #Health Overlay
-      - 317514 #Mouse Wheelie
-      - 325492 #Light Overlay
-      - 325625 #Roughly Enough Resources
-      - 335493 #Dynamic FPS
-      - 353641 #JumpOverFences
-      - 354047 #Ok Zoomer
-      - 355583 #Advancements Enlarger
-      - 360449 #Egg Tab
-      - 361550 #No Potion Offset
-      - 363126 #Boring Backgrounds
-      - 365521 #Pling
-      - 366240 #GameInfo
-      - 369122 #Better Enchanted Books
-      - 380393 #'Slight' Gui Modifications
-      - 388252 #Notes
-      - 398502 #Cherished Worlds
-      - 400929 #cAn i MiNe thIS bLOCk?
-      - 401978 #Disable Custom Worlds Advice
-      - 408366 #SlotLock
-      - 411705 #Damage Tilt
 
   # The base path where the server should be installed to, ~ for current path
   baseInstallPath: ~
@@ -103,28 +74,6 @@ install:
   # This is a list of files, each ' - ' is a new file:
   # url is the directlink to the file, destination is the path to where the file should be copied to
   additionalFiles:
-    - url: https://media.forgecdn.net/files/3101/200/tellme-fabric-1.16.4-0.9.1-beta.1.jar
-      destination: mods/tellme-fabric-1.16.4-0.9.1-beta.1.jar
-    - url: https://media.forgecdn.net/files/3097/870/blocklogger-0.2.1.jar
-      destination: mods/blocklogger-0.2.1.jar
-#    - url: https://media.forgecdn.net/files/3072/467/BlueMap-1.2.0-snap-fabric-1.16.3.jar
-#      destination: mods/BlueMap-1.2.0-snap-fabric-1.16.3.jar
-    - url: https://media.forgecdn.net/files/3082/894/hypnos-0.1.1.jar
-      destination: mods/hypnos-0.1.1.jar
-    - url: https://media.forgecdn.net/files/3109/728/InvView-1.2.0-1.16.2%2B.jar
-      destination: mods/InvView-1.2.0-1.16.2%2B.jar
-    - url: https://media.forgecdn.net/files/3098/760/FabriKommander-1.0.0-MC1.16.3.jar
-      destination: mods/FabriKommander-1.0.0-MC1.16.3.jar
-#    - url: https://media.forgecdn.net/files/3104/633/flan-1.16.2-1.1.4.jar
-#      destination: mods/flan-1.16.2-1.1.4.jar
-    - url: https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-fabric/build/libs/spark-fabric.jar
-      destination: mods/spark-fabric.jar
-    - url: https://media.forgecdn.net/files/3115/560/disfabric-1.16.4-1.2.0.jar
-      destination: mods/disfabric-1.16.4-1.2.0.jar
-    - url: https://media.forgecdn.net/files/3009/753/shutupconsole-1.1.jar
-      destination: mods/shutupconsole-1.1.jar
-    - url: https://cdn.discordapp.com/attachments/750220836191076383/778900805402492958/advdebug-2.2.0.jar
-      destination: mods/advdebug-2.2.0.jar
 
   # For often there are config which the user wants to change, here is the place to put the local path to configs, jars or whatever
   # You can copy files or folders:
@@ -170,10 +119,10 @@ launch:
   checkOffline: no
 
   # specifies the max amount of ram the server is supposed to launch with
-  maxRam: 5G
+  maxRam: 6G
 
    # specifies the minimal amount of ram the server is supposed to launch with
-  minRam: 5G
+  minRam: 6G
 
   # specifies whether the server is supposed to auto restart after crash
   autoRestart: yes
@@ -194,7 +143,7 @@ launch:
   # For Forge 1.12-: "forge-{{@mcversion@}}-{{@loaderversion@}}-universal.jar"
   # For Forge 1.13+: "forge-{{@mcversion@}}-{{@loaderversion@}}.jar"
   # For Fabric: "fabric-server-launch.jar"
-  startFile: fabric-server-launch.jar
+  startFile: forge-{{@mcversion@}}-{{@loaderversion@}}.jar
 
   # In case you have multiple javas installed you can add a absolute path to it here
   # if the value is "", null, or ~ then 'java' from PATH is going to be used
