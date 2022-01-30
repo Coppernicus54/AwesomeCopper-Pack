@@ -37,8 +37,7 @@ GOTO EOF
 REM Check if serverstarter JAR is already downloaded
 IF NOT EXIST "%cd%\serverstarter-@@serverstarter-libVersion@@.jar" (
 	ECHO serverstarter binary not found, downloading serverstarter...
-	%SYSTEMROOT%\SYSTEM32\bitsadmin.exe /rawreturn /nowrap /transfer starter /dynamic /download /priority foreground https://github.com/BloodyMods/ServerStarter/releases/download/v@@serverstarter-libVersion@@/serverstarter-@@serverstarter-libVersion@@.jar "%cd%\serverstarter-@@serverstarter-libVersion@@.jar"
-   GOTO MAIN
+	%SYSTEMROOT%\SYSTEM32\bitsadmin.exe /rawreturn /nowrap /transfer starter /dynamic /download /priority foreground https://github.com/BloodyMods/ServerStarter/releases/download/v2.2.0/serverstarter-2.2.0.jar   GOTO MAIN
 ) ELSE (
    GOTO MAIN
 )

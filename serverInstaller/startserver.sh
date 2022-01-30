@@ -17,7 +17,7 @@ fi
                fi
                exit 0
 	else
-			export URL="https://github.com/BloodyMods/ServerStarter/releases/download/v@@serverstarter-libVersion@@/serverstarter-@@serverstarter-libVersion@@.jar"
+			export URL="https://github.com/BloodyMods/ServerStarter/releases/download/v2.2.0/serverstarter-2.2.0.jar"
 	fi
 		echo $URL
 		which wget >> /dev/null
