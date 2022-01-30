@@ -1,0 +1,75 @@
+<component name="libraryTable">
+  <library name="mods">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mods/ae2extras-1.3.1-1.16.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/ImmersivePetroleum-1.16.5-3.3.0-11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/ae2wtlib-0.3.2-1.16.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/rftoolspower-1.16-3.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/MekanismGenerators-1.16.5-10.1.1.456.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/ftb-library-forge-1605.3.4-build.90.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/envirocore-1.16.5-3.0.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/mcjtylib-1.16-5.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/ImmersiveEngineering-1.16.5-5.0.7-143.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/Patchouli-1.16.4-53.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/Powah-1.16.5-2.3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/envirotech-1.16.5-3.0.9.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/kubejs-create-1605.1.4-build.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/appleskin-forge-mc1.16.x-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/Cucumber-1.16.5-4.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/xnet-1.16-3.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/architectury-1.28.48.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/configured-1.5.1-1.16.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/ftb-quests-forge-1605.3.6-build.76.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/create-mc1.16.5_v0.3.2g.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/industrial-foregoing-1.16.5-3.2.14.6-14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/createaddition-1.16.5-20220129a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/curios-forge-1.16.5-4.0.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/Cyclic-1.16.5-1.5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/AkashicTome-1.4-16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/ResourcefulBees-1.16.5-0.10.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/StorageDrawers-1.16.3-8.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/valkyrielib-1.16.5-3.0.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/cc-tweaked-1.16.5-1.100.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/ftb-chunks-forge-1605.3.2-build.115.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/AutoRegLib-1.6-49.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/rftoolsutility-1.16-3.1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/MekanismTools-1.16.5-10.1.1.456.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/rftoolsbase-1.16-2.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/BrandonsCore-1.16.5-3.0.11.238-universal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/CodeChickenLib-1.16.5-4.0.6.443-universal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/theoneprobe-1.16-3.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/JustEnoughResources-1.16.5-0.12.1.133.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/advancedperipherals-1.16.5-0.7.7.1r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/Draconic-Evolution-1.16.5-3.0.19.432-universal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/appliedenergistics2-8.4.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/MekanismAdditions-1.16.5-10.1.1.456.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/jei-1.16.5-7.7.1.145.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/MysticalAgriculture-1.16.5-4.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/BiomesOPlenty-1.16.5-13.1.0.477-universal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/FluxNetworks-1.16.5-6.2.1.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/ftb-teams-forge-1605.2.3-build.40.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/kubejs-ui-forge-1605.1.4-build.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/MysticalAgradditions-1.16.5-4.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/kubejs-mekanism-1605.1.2-build.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/Mantle-1.16.5-1.6.152.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/Lollipop-1.16.5-3.2.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/Mekanism-1.16.5-10.1.1.456.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/Controlling-7.0.0.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/chiselsandbits-1.0.63.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/flywheel-1.16-0.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/kubejs-forge-1605.3.19-build.258.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/rftoolsbuilder-1.16-3.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/rhino-forge-1605.1.5-build.75.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/TConstruct-1.16.5-3.3.2.324.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/MysticalCustomization-1.16.5-2.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/geckolib-forge-1.16.5-3.0.65.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/item-filters-forge-1605.2.5-build.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/CTM-MC1.16.1-1.1.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/ftb-backups-2.1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/kubejs-immersive-engineering-1605.1.2-build.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/titanium-1.16.5-3.2.8.4-10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

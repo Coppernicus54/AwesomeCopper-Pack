@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AwesomeCopper-Pack">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AwesomeCopper-Pack.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
